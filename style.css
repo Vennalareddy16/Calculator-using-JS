@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    margin: 50px;
+    background-color: paleturquoise;
+}
+#n1{
+    padding:10px;
+}
+#n2{
+    padding: 10px;
+}
+.container{
+    border-style: solid;
+    border-width: medium ;
+    background-color: white;
+    padding:20px;
+    text-align: center;
+    width:465px;
+    border-radius: 10px;
+}
+button{
+    padding: 8px 10px;
+    margin: 10px;
+}
+.buttons{
+    margin-top: 10px;
+    padding:20px
+}

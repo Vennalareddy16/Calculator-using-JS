@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculator</h1>
+    <div class="container">
+    <h1 >Calculator</h1>
+    <input type="text" id="n1" placeholder="Enter first number">
+    <br></br>
+    <input type="text" id="n2" placeholder="Enter Second number">
+    <div class="buttons">
+    <button onclick="doMath('+')">Add</button>
+    <button onclick="doMath('-')">Sub</button>
+    <button onclick="doMath('*')">Mul</button>
+    <button onclick="doMath('/')">Div</button>
+    <button onclick="doMath('%')">Mod</button>
+    <button onclick="doMath('**')">pow</button>
+</div>
+<div id="result"></div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
